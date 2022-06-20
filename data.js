@@ -41,10 +41,10 @@ const people = [
   },
   {
     name: 'Avery',
-    githubUsername: 'saudedetoka'
+    githubUsername: 'saudadetoska'
   },
   {
     name: 'Nate',
-    githubUsername: 'natenortermann'
+    githubUsername: 'natenotermann'
   },
 ];

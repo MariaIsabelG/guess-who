@@ -9,9 +9,10 @@ function onReady(){
 
 function appendDivs(){
     
+
     for( let i=0; i<people.length; i++ ){
         console.log( people[i] );
-        $( 'body' ).append( `<img src="https://github.com/${username}.png?size=250" alt="Profile image of ${name}"></img>` )
+        $( 'body' ).append( `<img src="https://github.com/${people[i].githubUsername}.png?size=250" alt="Profile image of ${people[i].name}"></img>` )
     }
 
-}
+};
